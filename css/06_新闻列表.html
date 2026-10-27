@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新闻列表</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+            box-sizing: border-box;
+        }
+        li {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+        }
+        .news {
+            margin: 100px auto;
+
+            width: 360px;
+            height: 200px; 
+            /* background-color: pink; */
+        }
+
+        .news .head {
+            height: 34px;
+            background-color: #eee;
+
+            border: 1px solid #dbdee1;
+            border-left: none;
+        }
+        .news .head a {
+            display: inline-block; 
+
+            margin: -1px;
+
+            width: 48px;
+            height: 34px;
+            border-top: 3px solid #ff8400;
+            border-right: 1px solid #dbdee1;
+            background-color: #fff;
+
+            text-align: center;
+            line-height: 32px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        /* .news .list li {
+            padding-left: 15px;
+        } */
+        .news .list a {
+            padding-left: 20px; /*背景图 no-repaet 0 center + padding --> 实现前置的美观性图标*/
+            background: url(../picture/slight_16.png) no-repeat 0 center;
+
+            font-size: 12px;
+            line-height: 24px;
+            color: #666;
+        }
+        .news .list a:hover {
+            color: #ff8400;
+        }
+    </style>
+</head>
+<body>
+    <div class="news">
+        <div class="head"> <a href="#">新闻</a></div>  
+        <div class="list">
+            <ul>
+                <li> <a href="#">震惊！轻音社传出颤巍巍的叫声，原因竟是...</a></li>
+                <li> <a href="#">震惊！轻音社传出颤巍巍的叫声，原因竟是...</a></li>
+                <li> <a href="#">震惊！轻音社传出颤巍巍的叫声，原因竟是...</a></li>
+                <li> <a href="#">震惊！轻音社传出颤巍巍的叫声，原因竟是...</a></li>
+                <li> <a href="#">震惊！轻音社传出颤巍巍的叫声，原因竟是...</a></li>
+                <li> <a href="#">震惊！轻音社传出颤巍巍的叫声，原因竟是...</a></li>     
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

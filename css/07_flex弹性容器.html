@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fles弹性容器</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+            box-sizing: border-box;
+        }
+        li {
+            list-style: none;
+        }
+
+        .box {
+            margin: 100px auto;
+
+            width: 1200px;
+            height: 418px;
+            background-color: #fff;
+
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+
+        .box ul {
+            display: flex;
+            padding: 80px 40px;
+
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-content: space-between;
+
+            height: 418px;
+        }
+        .box li {
+            display: flex;
+
+            width: 500px;
+            height: 88px;
+            background-color: #fff;
+        }
+
+        .box .pic {
+            margin-right: 15px;
+        }
+
+        .box .text h4{
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 40px;
+            color: #333;
+        }
+
+        .box .text p { 
+            font-size: 14px;
+            color: #666;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <ul>
+            <li>
+                <div class="pic">
+                    <img src="../picture/test04.jpg" alt="mortis" width="88">
+                </div>
+                <div class="text">
+                    <h4>Mortis</h4>
+                    <p>喜欢转圈圈的吉他手</p>
+                </div>
+            </li>
+            <li>
+                <div class="pic">
+                    <img src="../picture/test05.jpg" alt="mortis" width="88">
+                </div>
+                <div class="text">
+                    <h4>若叶睦</h4>
+                    <p>喜欢种黄瓜的小可爱</p>
+            </li>
+            <li>
+                <div class="pic">
+                    <img src="../picture/test02.jpg" alt="mortis" width="88">
+                </div>
+                <div class="text">
+                    <h4>若叶睦</h4>
+                    <p>喜欢种苦瓜的小可爱</p>
+            </li>
+            <li>
+                <div class="pic">
+                    <img src="../picture/test03.jpg" alt="mortis" width="88">
+                </div>
+                <div class="text">
+                    <h4>Mortis</h4>
+                    <p>啥也不会的小可爱</p>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

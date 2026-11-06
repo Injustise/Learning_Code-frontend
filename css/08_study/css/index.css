@@ -17,7 +17,6 @@ body {
   
     padding-top: 30px;
 }
-
 /* logo */
 .logo a { 
     display: block;
@@ -28,7 +27,6 @@ body {
 
     font-size: 0;
 }
-
 /* navigate */
 .navigate {  
     margin-left: 100px;
@@ -52,7 +50,6 @@ body {
 .navigate li a:hover {
      border-bottom: 2px solid #004aff;
 }
-
 /* search */
 .search {
     display: flex;
@@ -86,7 +83,6 @@ body {
     height: 16px;
     background-image: url(../images/search.png);
 }
-
 /* user */
 .user {
     display: flex;
@@ -103,6 +99,7 @@ body {
     font-size: 16px;
     color: #666;
 }
+
 
 /* banner */
 .banner {
@@ -205,4 +202,194 @@ body {
     color: #fff;
 
     border-radius: 15px;
+}
+
+
+/* 精品推荐 */
+.recommend {
+    display: flex;
+    margin-top: 10px;
+    padding: 0 20px;
+    
+    height: 60px;
+    
+
+    line-height: 60px;
+    background-color: #fff;
+
+    box-shadow: 0px 1px 2px 0px rgba(221, 221, 221, 0.5);
+}
+.recommend h3 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #00a4ff;
+}
+.recommend ul {
+    display: flex;
+    flex: 1;
+}
+.recommend ul li a {
+    padding: 0 24px;
+
+    font-size: 18px;
+
+    border-right: 1px solid #e0e0e0;
+}
+.recommend ul li:last-child a {
+    border-right: none;
+}
+.recommend .modify {
+    font-size: 16px;
+    color: #00a4ff;
+}
+
+
+/* course */
+.course {
+    margin-top: 15px;
+}
+.hd {
+    display: flex;
+    justify-content: space-between;
+
+    height: 60px;
+    line-height: 60px;
+}
+.hd h3 {
+    font-weight: 400;
+    font-size: 21px;
+    color: #00a4ff;
+}
+.hd .more {
+    padding-right: 20px;
+
+    background: url(../images/more.png) no-repeat  right center;
+
+    font-size: 14px;
+    color: #999;
+}
+.bd ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bd li {
+    margin-bottom: 14px;
+
+    width: 228px;
+    height: 271px;
+    background-color: pink;
+}
+.bd li .pic {
+    height: 156px;
+}
+.bd li .text {
+    padding: 20px;
+    height: 115px;
+    background-color: #fff;
+}
+.bd li .text h4 {
+    margin-bottom: 12px;
+
+    height: 40px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.bd li .text p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #999;
+}
+.bd li .text p span {
+    color: #fa6400;
+}
+.bd li .text p strong {
+    font-weight: 400;
+}
+
+/* 前端 */
+.hd ul {
+    display: flex;
+}
+.hd ul li {
+    margin-right: 60px;
+
+    font-size: 16px;
+}
+.hd ul li a.active, .hd ul li a:hover {
+    color: #00a4ff;
+}
+.bd {
+    display: flex;
+    justify-content: space-between;
+}
+.bd .left {
+    width: 228px;
+    /* background-color: pink; */
+}
+.bd .right {
+    width: 957px;
+    /* background-color: pink; */
+}
+.bd .right .top {
+    margin-bottom: 15px;
+
+    height: 100px;
+}
+
+/* 版权 */
+.footer {
+    margin-top: 60px;
+    padding-top: 60px;
+
+    height: 270px;
+    background-color: #fff;
+}
+.footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.footer .left {
+    width: 440px;
+    /* background-color: pink; */
+}
+.footer .left p {
+    margin-top: 24px;
+    margin-bottom: 14px;
+
+    font-size: 12px;
+    line-height: 18px;
+    color: #666;
+}
+.footer .left .download {
+    display: block;
+    
+    width: 120px;
+    height: 36px;
+    text-align: center;
+
+    font-size: 16px;
+    line-height: 34px;
+    color: #00a4ff;
+
+
+    border: 1px solid #00a4ff;
+}
+.footer .right {
+    display: flex;
+}
+.footer .right dl {
+    margin-right: 130px;
+}
+.footer .right dt {
+    margin-bottom: 12px;
+
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer .right a {
+    font-size: 14px;
+    color: #666;
 }
